@@ -5,6 +5,7 @@ on is_running(appName)
 	tell application "System Events" to (name of processes) contains appName
 end is_running
 
+#http://snipplr.com/view/50927/
 on menuItemClick({appName, menuName1, menuItem1})
 	set app_is_running to is_running(appName)
 	
