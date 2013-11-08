@@ -1,5 +1,6 @@
 menuItemClick({"Microsoft Lync", "Status", "Sign In..."})
 
+#http://blog.strug.de/2011/05/applescript-to-test-if-application-is-not-running-and-how-that-helps-to-switch-marcopolo-contexts/
 on is_running(appName)
 	tell application "System Events" to (name of processes) contains appName
 end is_running
