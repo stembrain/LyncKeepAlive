@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!-- Put this in your home directory under Library/LaunchAgents -->
+<!-- Update the USERNAME value below to match your current user name -->
+<!-- Then use "launchctl load ~/Library/LaunchAgents/LyncKeepAlive.plist to schedule the script to run -->
 <plist version="1.0">
 <dict>
     <key>Label</key>
@@ -10,7 +12,7 @@
     <key>ProgramArguments</key>
     <array>
         <string>/usr/bin/osascript</string>
-        <string>/Users/demann/Library/Scripts/LyncKeepAlive.scpt</string>
+        <string>/Users/USERNAME/Library/Scripts/LyncKeepAlive.scpt</string>
     </array>
     <!-- StartInterval specifies how often the script should check your Lync connection, in seconds -->
     <key>StartInterval</key>
