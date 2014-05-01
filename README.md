@@ -19,3 +19,7 @@ The OS may issue a warning that "osascript" would like to access your applicatio
 - Click Privacy tab
 - Select Accessibility 
 - Check the box next to osascript under the "Allow the apps below to control your computer"
+
+
+
+To uninstall, run "launchctl remove edu.emory.LyncKeepAlive"
